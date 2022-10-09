@@ -1,4 +1,8 @@
-a=3
-b=5
-# c=a/b
-print(a//b)
+x = int(input())
+
+if x>0:
+    print("x is positive")
+elif x<0:
+    print("x is negative")
+
+
