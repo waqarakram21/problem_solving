@@ -8,4 +8,4 @@ if __name__ == '__main__':
     
             ndrun= arr.index(run)
             del(arr[ndrun])
-    print(arr)
+    print(run)
