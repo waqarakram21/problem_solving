@@ -1,11 +1,22 @@
-N = int(input())
-stu=[]
-record=[]
+if __name__ == '__main__':
+    N = int(input())
 
-for _ in range(N):
-    stu.append(input())
-    stu.append(input())
+    list=[]
+    for i in range(N):
+        name=input()
+        score=input()
+        list.append([name,score])
 
-    record.append(stu)
+    list2=[]
+    # print(list)
     
-print(stu)
+    for j in range(len(list)):
+        list2.append(list[j][1])
+    new_list=set(list2)
+    new_list.remove(max(list2))
+    scndmx=max(list2)
+    # print(scndmx)
+
+    for k in range(len(list)):
+        if list[k][1]==scndmx:
+            print(list[k][0])

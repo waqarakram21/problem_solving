@@ -1,1 +1,4 @@
-print(2+3-32/24+2)
+arr=list(map(int,input().strip().split()))
+new_arr=(set(arr))
+new_arr.remove(max(new_arr))
+print(max(new_arr))
