@@ -28,4 +28,3 @@ if __name__ == '__main__':
     sorted_list=sorted(final_list)
     for word in range(len(sorted_list)):
         print(sorted_list[word])
-
