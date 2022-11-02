@@ -1,11 +1,17 @@
 if __name__ == '__main__':
     n = int(input())
     arr = list(map(int, input().split()))
-    run=arr[0]
+    max=max(arr)
+    # print(max)
+    arr1=[]
     for i in arr:
-        if i > run:
-            run = i
-    
-            ndrun= arr.index(run)
-            del(arr[ndrun])
-    print(run)
+        # print(i)
+        if i==max:
+            pass
+        else:
+            arr1.append(i)
+    arr1_max=arr1[0]
+    for j in arr1:
+        if j>arr1_max:
+            arr1_max=j
+    print(arr1_max)            
