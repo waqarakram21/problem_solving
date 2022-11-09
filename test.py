@@ -1,6 +1,2 @@
-n = int(input())
-s = input()
-t=''
-for i in range(n):
-    t=t+s
-print(t)
+list=[1,2,3,4,5]
+print(len(list))
