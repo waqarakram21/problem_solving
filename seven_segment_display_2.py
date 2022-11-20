@@ -9,7 +9,7 @@ def mat(m):
    for i in m :
        x += match[i]
    r = x % 2
-   result = ["1"]
+   result = ["1"]   
    if r == 0 :
        result.append(x // 2)
        result.append("")
